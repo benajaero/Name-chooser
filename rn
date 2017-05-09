@@ -5,8 +5,8 @@ import argparse
 import random
 
 parser = argparse.ArgumentParser(description='Chooses random name for your enjoyment')
-parser.add_argument('--boy', action='store_true', help='Random male name')
-parser.add_argument('--girl', action='store_true', help='Random female name')
+parser.add_argument('-b','--boy', action='store_true', help='Random male name')
+parser.add_argument('g','--girl', action='store_true', help='Random female name')
 
 args = parser.parse_args()
 
