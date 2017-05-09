@@ -21,4 +21,8 @@ $ ./rn --boy
 $ ./rn --girl
 # Random boy name
 $ ./rn
+
+# With short flags
+$ ./rn -b
+$ ./rn -g
 ```
